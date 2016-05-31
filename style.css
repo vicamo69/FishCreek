@@ -6,10 +6,32 @@ body {
 
 h1 {
   line-height: 200%;
+  text-align: center;
+  text-shadow: 2px 1px 1px #666;
+}
+h2{
+  font-weight: bold;
+  background-color: #6699ff;
+  color: #003366 or:#6699ff;
+  font-size: 1.1em;
+  text-shadow: 2px 1px 1px #666;
 }
 
 nav {
   font-weight: bold;
+  text-align: center;
+}
+nav li {
+  display: inline;
+}
+footer nav {
+  text-align: left;
+}
+footer nav ul{
+  padding-left: 0px;
+}
+footer nav li{
+  padding-right: 10px;
 }
 
 .category {
@@ -18,7 +40,28 @@ nav {
   color: #003366;
   font-size: 1.1em;
 }
+.category2{
+  font-weight: bold;
+  background-color: #6699ff;
+  color: #003366 or:#6699ff;
+  font-size: 1.1em;
+  text-shadow: 2px 1px 1px #666;
+
+}
+.category3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
 footer {
   font-size: .7em;
+  font-style: italic;
+}
+footer nav {
+  text-align: copyright (c) 2016 copyright Holder all rights Reserved.
 }
